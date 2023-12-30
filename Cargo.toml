@@ -1,0 +1,13 @@
+[package]
+name = "jugagspb"
+version = "0.1.0"
+description = ""
+edition =  "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+jupiter-swap-api-client = { git = "https://github.com/LongSna/jupiter-api-rust-example" }
+solana-sdk = "1.14.23"
+solana-client = "1.14.23"
+bincode = "1.3.3"
+chrono = "0.4.31"
